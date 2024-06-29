@@ -1,6 +1,12 @@
 # UserEnums
 A user-created, autocomplete recreation of Roblox's Enum.
 
+## Features
+
+- If used correctly, you can create and use auto-complete Enums.
+- You can create Enums that can be used in multiple scripts.
+- It’s almost identical to Enums created by Roblox.
+
 ## How to use
 
 - First, write the type of Enum you want to create in Types.
