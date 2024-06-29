@@ -13,7 +13,9 @@ A user-created, autocomplete recreation of Roblox's Enum.
 - Second, write EnumList in the EnumList module script under Enums.
 - Third, require Enums along with Types in the script you want to use.
 
-### Example When you want to create Enums called Enum.TestEnum.TestEnumItem1 and Enum.TestEnum.TestEnumItem2
+### Example 
+
+When you want to create Enums called Enum.TestEnum.TestEnumItem1 and Enum.TestEnum.TestEnumItem2
 
 Types:
 ```
