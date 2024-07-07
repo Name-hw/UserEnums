@@ -4,10 +4,10 @@ A user-created, autocomplete recreation of Roblox's Enum.
 
 ## Features
 
-- Auto-complete Enums.
-- You can create Enums that can be used in multiple scripts.
-- Almost identical to Enums created by Roblox.
-- Also available on Lune.
+1. Auto-complete Enums.
+2. You can create Enums that can be used in multiple scripts.
+3. Almost identical to Enums created by Roblox.
+4. Also available on Lune.
 
 ## How to use
 
@@ -21,9 +21,11 @@ When you want to create Enums called Enum.TestEnum.TestEnumItem1 and Enum.TestEn
 Enums.EnumList:
 
 ```luau
-TestEnum = {
- TestEnumItem1 = {} :: UserEnumItem,
- TestEnumItem2 = {} :: UserEnumItem,
+local EnumList = {
+    TestEnum = {
+        TestEnumItem1 = {} :: UserEnumItem,
+        TestEnumItem2 = {} :: UserEnumItem,
+    }
 }
 ```
 
