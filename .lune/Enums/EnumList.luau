@@ -1,6 +1,6 @@
-local UserEnums_Class = require(script.Parent.UserEnums)
-local UserEnum_Class = require(script.Parent.UserEnum)
-local UserEnumItem_Class = require(script.Parent.UserEnumItem)
+local UserEnums_Class = require("UserEnums")
+local UserEnum_Class = require("UserEnum")
+local UserEnumItem_Class = require("UserEnumItem")
 
 type UserEnums = UserEnums_Class.UserEnums
 type UserEnum = UserEnum_Class.UserEnum

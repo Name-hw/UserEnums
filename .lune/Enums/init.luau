@@ -1,8 +1,8 @@
 --!strict
-local UserEnums_Class = require(script.UserEnums)
-local UserEnum_Class = require(script.UserEnum)
-local UserEnumItem_Class = require(script.UserEnumItem)
-local EnumList = require(script.EnumList)
+local UserEnums_Class = require("UserEnums")
+local UserEnum_Class = require("UserEnum")
+local UserEnumItem_Class = require("UserEnumItem")
+local EnumList = require("EnumList")
 
 assert(EnumList, "Please write a module script for 'EnumList'")
 

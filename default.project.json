@@ -1,6 +1,6 @@
 {
-  "name": "UserEnums",
+  "name": "Enums",
   "tree": {
-    "$path": "src"
+    "$path": "src/Enums"
   }
 }

@@ -1,5 +1,5 @@
 --!strict
-local UserEnum_Class = require(script.Parent.UserEnum)
+local UserEnum_Class = require("UserEnum")
 
 export type UserEnums_Properties = { [string | UserEnum_Class.UserEnum]: UserEnum_Class.UserEnum }
 export type UserEnums_Methods = { GetEnums: (self: UserEnums) -> { UserEnum_Class.UserEnum } }
