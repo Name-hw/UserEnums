@@ -23,8 +23,8 @@ Enums.EnumList:
 ```luau
 local EnumList = {
     TestEnum = {
-        TestEnumItem1 = {} :: UserEnumItem,
-        TestEnumItem2 = {} :: UserEnumItem,
+        TestEnumItem1 = {},
+        TestEnumItem2 = {},
     }
 }
 ```
