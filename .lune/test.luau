@@ -18,4 +18,4 @@ end
 
 --Error, etc
 print(getmetatable(Enums)) -- The metatable is locked
-print(Enums.sdf) -- error, sdf is not a valid member of "UserEnums"
+print(Enums.sdf) -- error, sdf is not a valid member of "Enums"

@@ -1,21 +1,19 @@
-local UserEnums_Class = require("UserEnums")
-local UserEnum_Class = require("UserEnum")
-local UserEnumItem_Class = require("UserEnumItem")
+local Types = require("Types")
 
-type UserEnums = UserEnums_Class.UserEnums
-type UserEnum = UserEnum_Class.UserEnum
-type UserEnumItem = UserEnumItem_Class.UserEnumItem
+type UserEnums = Types.UserEnums
+type UserEnum = Types.UserEnum
+type UserEnumItem = Types.UserEnumItem
 
 local EnumList = {
 	--Please write the Enum you want to add here.
 
 	TestEnum = {
-		TestEnumItem1 = {} :: UserEnumItem,
-		TestEnumItem2 = {} :: UserEnumItem,
+		TestEnumItem1 = {},
+		TestEnumItem2 = {},
 	},
 	TestEnum2 = {
-		one = {} :: UserEnumItem,
-		two = {} :: UserEnumItem,
+		one = {},
+		two = {},
 	},
 }
 
